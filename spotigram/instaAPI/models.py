@@ -23,11 +23,34 @@ class User(models.Model):
         "likedPost":[],
         "savedPost":[]
     })
+ 
+
+class Playlist(models.Model):
+    user_id = models.ForeignKey("User", related_name="playlist_user", on_delete=models.CASCADE, db_column="playlist_user_id", default=1)
+    Title = models.CharField(default="My PlayList", max_length=20)
+    Data = models.JSONField(default={
+        "artist":"",
+        "music":""
+    })
 
 class Post(models.Model):
-    User_id = models.ForeignKey("User", related_name="user", on_delete=models.CASCADE, db_column="user_id")
+    user_id = models.ForeignKey("User", related_name="post_user", on_delete=models.CASCADE, db_column="post_user_id", default=1)
+
     AlbumCover = models.URLField()
     MusicData = models.URLField() # 외부 rest api로 불러오기 때문에
     Content = models.CharField(default="", max_length=300)
+    
+    Like = models.IntegerField(default=0)
+    Tag = models.JSONField(default={
+        "location":"",
+        "user":[]
+    })
 
-    # Tag
+class Comment(models.Model):
+    post_id = models.ForeignKey("Post", related_name="post", on_delete=models.CASCADE, db_column="post_id")
+
+    id = models.BigAutoField(help_text="Comment ID", primary_key=True)
+    username = models.CharField(default="", max_length=20)
+    contents = models.TextField(help_text="Comment contents", blank=False, null=False)
+    like = models.IntegerField(default=0)
+    
