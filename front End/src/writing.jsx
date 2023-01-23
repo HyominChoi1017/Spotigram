@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom'
 export default function Writing()  {
     let navigate = useNavigate();
     return (
-        <div>
+        <div className='lgin'>
             <div className='write'></div>
             <div className='title'></div>
             <dl>
