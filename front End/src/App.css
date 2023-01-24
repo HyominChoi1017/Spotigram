@@ -1,70 +1,92 @@
 .ogin {
 position: absolute;
-left: 45%;
+left: 40%;
 top: 50%;
 width: 300px;
 height: 50px;
+background-color: transparent;
+border: none;
+font-size: 18px; color: rgb(225, 163, 219)
 }
 .heading {
   color: rgb(225, 163, 219);
 }
 .sig {
   position: absolute;
-  left: 45%;
+  left: 40%;
   top: 57%;
   width: 300px;
   height: 50px;
-  
+  background-color: transparent;
+  border: none;
+  font-size: 18px; color: rgb(225, 163, 219);
 }
 .em{
   position: absolute;
-  left: 25%;
-  top: 35%;
-  width: 1300px;
-  height: 50px;
-
+  width: 30%;
+  text-align: center;
+  top: 30%;
+  left: 35%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px; color: rgb(225, 163, 219);
 }
 
 .si{
   position: absolute;
-  left: 25%;
-  top: 43%;
-  width: 1300px;
-  height: 50px;
+  width: 30%;
+  text-align: center;
+  top: 40%;
+  left: 35%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
 .ema{
   position: absolute;
-  left: 15%;
   top: 25%;
-  width: 1900px;
+  width: 30%;
+  left: 35%;
   height: 50px;
-}
-.emai{
-  position: absolute;
-  left: 15%;
-  top: 35%;
-  width: 1900px;
-  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
 .pass{
   position: absolute;
-  left: 15%;
-  top: 45%;
-  width: 1900px;
+  top: 35%;
+  width: 30%;
+  left: 35%;
   height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
-.wode{position: absolute;
-  left: 15%;
-  top: 55%;
-  width: 1900px;
+.wode{
+  position: absolute;
+  top: 45%;
+  width: 30%;
+  left: 35%;
   height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
 .signu{
   position: absolute;
-  left: 40%;
+  left: 35%;
   top:64%;
-  width: 600px;
+  width: 30%;
   height: 50px;
+  background-color: transparent;
+  border-bottom: none;
+  border: none;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
 .title{
 position: absolute;
@@ -113,6 +135,10 @@ height: 67%;
   position: absolute;
   left: 89%;
   top: 87%;
+  background-color: transparent;
+  border-bottom: none;
+  border: none;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
 .topp{
  position: absolute;
@@ -153,6 +179,10 @@ height: 67%;
   position: absolute;
   left: 89%;
   top:80%;
+  background-color: transparent;
+  border-bottom: none;
+  border: none;
+  font-size: 18px; color: rgb(225, 163, 219)
 }
 .oginn{
   position: absolute;

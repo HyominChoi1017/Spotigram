@@ -6,11 +6,11 @@ export default function Login()  {
     let navigate = useNavigate();
     return (
         <div className = 'lgin'>
-            <button className='ogin' onClick={()=>{navigate('./main')}}>로그인</button>
+            <button className='ogin' onClick={()=>{navigate('./main')}}>signin</button>
             <h3 className='heading'>Sportygram</h3>
-            <button className='sig' onClick={()=>{navigate('./signup')}}>회원가입</button>
-            <input type="email" placeholder='아이디'className='em' />
-            <input type="passwode"placeholder='비밀번호'className='si' />
+            <button className='sig' onClick={()=>{navigate('./signup')}}>signup</button>
+            <input type="email" placeholder='email'className='em' />
+            <input type="password"placeholder='password'className='si' />
             
         </div>
         

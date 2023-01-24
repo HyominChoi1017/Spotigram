@@ -4,11 +4,10 @@ export default function Signup() {
     let navigate = useNavigate();
     return (
         <div className='lgin'>
-            <input type="email" placeholder='이메일주소'className='ema' />
-            <input type="email" placeholder='이메일주소 확인'className='emai' />
-            <input type="passwode"placeholder='비밀번호'className='pass' />
-            <input type="passwode"placeholder='비밀번호 확인'className='wode' />
-            <button className='signu' onClick={()=>{navigate('/')} }>회원가입</button>
+            <input type="email" placeholder='email'className='ema' />
+            <input type="passwode"placeholder='password'className='pass' />
+            <input type="passwode"placeholder='Confirm Password'className='wode' />
+            <button className='signu' onClick={()=>{navigate('/')} }>signup</button>
         </div>
     );
 }
