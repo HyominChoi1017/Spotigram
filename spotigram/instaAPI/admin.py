@@ -8,3 +8,4 @@ class UserAdmin(admin.ModelAdmin):
         'Username',
         'Password',
     )
+
