@@ -2,6 +2,7 @@
 CLIENT_ID = 'f447245b08ed4436874b6d9099c9af29'
 CLIENT_SECRET = 'd1975fef9a514dfca16e1ff7f7db3371'
 
+import time
 import datetime
 import spotipy 
 from spotipy.oauth2 import SpotifyClientCredentials 
@@ -51,6 +52,7 @@ def getMusicChart():
 
 
 def getArtistChart():
+    start_time = time.time()
     artist_popularity = []
     artist_genres = []
     artist_followers =[]
@@ -67,4 +69,9 @@ def getArtistChart():
         artist_genres=artist_genres, 
         artist_followers=artist_followers
         )
+    end_time = time.time()
+    print("실행시간:", end_time - start_time)
     return track_df.to_json()
+
+
+print(pd.DataFrame(getArtistChart()))
