@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8aaeb217-6525-4d30-a099-c0f2b7e2da73" name="python manage.py runserver" comment="">
+      <change beforePath="$PROJECT_DIR$/spotigram/instaAPI/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/spotigram/instaAPI/migrations/0001_initial.py" afterDir="false" />
+    </list>
+    <list id="7cc555da-3d1a-4a94-8454-14814f0eb98b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/front End/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/Table.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/eheqhrl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/eheqhrl.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/fbase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/img/돋보기 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/img/로고.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/img/로그아웃.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/img/종료 이미지 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/img/홈이미지 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/player.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/player.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front End/src/signup.jsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LtWoOj820Ia74dcdbaNt2f4tX2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="ReactNative" factoryName="React Native" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <react-native value="" />
+      <platform value="ANDROID" />
+      <envs />
+      <only-packager />
+      <browser value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <method v="2">
+        <option name="ReactNativePackager" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="Default" summary="Default task">
+      <branch name="main" repository="C:\Users\김현수\Desktop\프제ㅐㄱ\Spotigram" />
+      <changelist id="7cc555da-3d1a-4a94-8454-14814f0eb98b" name="Changes" comment="" />
+      <created>1676691034859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676706248801</updated>
+      <workItem from="1676691046722" duration="805000" />
+      <workItem from="1676700279586" duration="17000" />
+      <workItem from="1676700379978" duration="1376000" />
+    </task>
+    <task active="true" id="LOCAL-00001" summary="python manage.py runserver">
+      <branch name="main" repository="C:\Users\김현수\Desktop\프제ㅐㄱ\Spotigram" original="true" />
+      <branch name="python-manage" repository="C:\Users\김현수\Desktop\프제ㅐㄱ\Spotigram" />
+      <changelist id="8aaeb217-6525-4d30-a099-c0f2b7e2da73" name="python manage.py runserver" comment="" />
+      <created>1676706246937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676706248801</updated>
+      <workItem from="1676706249268" duration="630000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
