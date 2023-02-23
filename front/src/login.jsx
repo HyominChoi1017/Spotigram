@@ -4,9 +4,10 @@ import {useNavigate} from 'react-router-dom'
 import axios from 'axios';
 export default function Login()  {
     let navigate = useNavigate();
+    
     return (
         <div className = 'background'>
-            <button className='login' onClick={()=>{navigate(Login.as_view())}}>signin</button>
+            <button className='login' onClick={()=>{navigate('./main')}}>signin</button>
             <h3 className='heading'>Sportygram</h3>
             <button className='signup' onClick={()=>{navigate('./signup')}}>signup</button>
             <input type="email" placeholder='email'className='email' />

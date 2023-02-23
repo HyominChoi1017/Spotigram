@@ -2,7 +2,6 @@ import './App.css';
 import{ BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Login from './login';
 import Signup from './signup';
-
 import Main from './main';
 import Eheqhrl from './eheqhrl';
 import Player from './player';
